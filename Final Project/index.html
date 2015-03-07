@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>My favourite Chocolate places in New York and Pennsylvania</title>
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
+	<script type="text/javascript" src="ajax.js"></script>
+    <script type="text/javascript" src="javascript.js"></script>
+  </head>
+  <body>
+	<select id="select-state">
+		<option value="NY">New York</option>
+		<option value="PA">Pennsylvania</option>
+	</select>
+	<button id="btn-draw-markers">Draw Markers</button>
+	<button id="btn-clear-markers" onclick="clearMarkers();">Clear Markers</button>
+    <div id="map-canvas"></div>
+	
+	<!--
+    <div id="map-canvas2"></div>
+	-->
+  </body>
+</html>

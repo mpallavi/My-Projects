@@ -1,0 +1,44 @@
+{
+	"lat": 39.934389
+	,"lng": -75.158983
+	,markers: [
+		{
+			"title": "RIM Cafe"
+			,"lat": 39.934389
+			,"lng": -75.158983
+			,"info": "1172 S 9th St Philadelphia, PA 19147"
+		}
+		,
+		{
+			"title": "Asher's Chocolates"
+			,"lat": 40.274238
+			,"lng": -75.338392
+			,"info": "80 Wambold Rd Souderton, PA 18964"
+		}
+		,
+		{
+			"title": "Bridge Street Chocolates"
+			,"lat": 40.134026
+			,"lng": -75.514704
+			,"info": "158 Bridge St Phoenixville, PA 19460"
+		}
+		,
+		{
+			"title": "Lore's Chocolates"
+			,"lat": 39.949863
+			,"lng": -75.152608
+			,"info": "34 S 7th St Philadelphia, PA 19106"
+		}
+		,
+		{
+			"title": "Eclat Chocolate"
+			,"lat": 39.959182
+			,"lng": -75.604167
+			,"info": "24 S High St West Chester, PA 19382"
+		}
+	]
+}
+
+
+
+

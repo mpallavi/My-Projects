@@ -1,0 +1,39 @@
+{
+	"lat": 40.705429
+    ,"lng": -73.933776
+    , markers: [{
+			"title": "Fine & Raw"
+			,"lat": 40.705429
+			,"lng": -73.933776
+			,"info": "288 Seigel St Brooklyn, NY 11206"
+		}
+		,
+		{
+			"title": "Mast Brothers Chocolate"
+			,"lat": 40.716674
+			,"lng": -73.961629
+			,"info": "111 N 3rd St New York, NY 11211"
+		}
+		,
+		{
+			"title": "Nunu Chocolates"
+			,"lat": 40.68522
+			,"lng": -73.979956
+			,"info": "529 Atlantic Ave Brooklyn, NY 11217"
+		}
+		,
+		{
+			"title": "Cocoa Bar"
+			,"lat": 40.670194
+			,"lng": -73.979082
+			,"info": "228 7th Ave Brooklyn, NY 11215"
+		}
+		,
+		{
+			"title": "The Chocolate Room"
+			,"lat": 40.6847914
+			,"lng": -73.9945445
+			,"info": "269 Court St Brooklyn, NY 11231"
+		}
+	]
+}
