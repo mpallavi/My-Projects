@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="winecollection">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="bottle" minOccurs="1" maxOccurs="10">
+                    <xs:complexType>
+                        <xs:all>
+                            <xs:element name="producer" type="producerInfo"></xs:element>
+                            <xs:element name="vintage" type="xs:gYear"></xs:element>
+                            <xs:element name="wine" type="wineInfo"></xs:element>
+                            <xs:element name="serve" type="serveInfo"></xs:element>
+                            <xs:element name="sellers" type="sellerInfo" minOccurs="0"></xs:element>
+                        </xs:all>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    
+    <xs:complexType name="producerInfo">
+        <xs:sequence>
+            <xs:element name="vineyard" type="xs:string"></xs:element>
+            <xs:element name="address" type="xs:string"></xs:element>
+            <xs:element name="country" type="xs:string"></xs:element>
+            <xs:element name="geocode">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="latitude" minOccurs="1" maxOccurs="1"></xs:element>
+                        <xs:element name="longitude" minOccurs="1" maxOccurs="1"></xs:element>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="label" type="xs:anyURI" minOccurs="0"></xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="wineInfo">
+        <xs:sequence>
+            <xs:element name="variety" type="xs:string"></xs:element>
+            <xs:element name="type" type="xs:string"></xs:element>
+            <xs:element name="color">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="Almost Clear"></xs:enumeration>
+                        <xs:enumeration value="Green Yellow"></xs:enumeration>
+                        <xs:enumeration value="Platinum Yellow"></xs:enumeration>
+                        <xs:enumeration value="Pale Yellow"></xs:enumeration>
+                        <xs:enumeration value="Pale Gold"></xs:enumeration>
+                        <xs:enumeration value="Deep Gold"></xs:enumeration>
+                        <xs:enumeration value="Pale Salmon"></xs:enumeration>
+                        <xs:enumeration value="Deep Pink"></xs:enumeration>
+                        <xs:enumeration value="Deep Salmon"></xs:enumeration>
+                        <xs:enumeration value="Pale Ruby"></xs:enumeration>
+                        <xs:enumeration value="Deep Violet"></xs:enumeration>
+                        <xs:enumeration value="Deep Purple"></xs:enumeration>
+                        <xs:enumeration value="Tawny"></xs:enumeration>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="alcoholbyvolume" type="xs:decimal"></xs:element>
+            <xs:element name="descriptors" type="descriptorInfo"></xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="descriptorInfo">
+        <xs:sequence>
+            <xs:element name="acidity" type="xs:string" minOccurs="0" maxOccurs="5"></xs:element>
+            <xs:element name="alcohol" type="xs:string" minOccurs="0" maxOccurs="5"></xs:element>
+            <xs:element name="body" type="xs:string" minOccurs="0" maxOccurs="5"></xs:element>
+            <xs:element name="flower" type="xs:string" minOccurs="0" maxOccurs="5"></xs:element>
+            <xs:element name="fruit" type="xs:string" minOccurs="0" maxOccurs="5"></xs:element>
+            <xs:element name="herb" type="xs:string" minOccurs="0" maxOccurs="5"></xs:element>
+            <xs:element name="inorganic" type="xs:string" minOccurs="0" maxOccurs="5"></xs:element>
+            <xs:element name="oak" type="xs:string" minOccurs="0" maxOccurs="5"></xs:element>
+            <xs:element name="spice" type="xs:string" minOccurs="0" maxOccurs="5"></xs:element>
+            <xs:element name="style" type="xs:string" minOccurs="0" maxOccurs="5"></xs:element>
+            <xs:element name="tannin" type="xs:string" minOccurs="0" maxOccurs="5"></xs:element>
+            <xs:element name="yeast" type="xs:string" minOccurs="0" maxOccurs="5"></xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="serveInfo">
+        <xs:sequence>
+            <xs:element name="best" type="xs:string" minOccurs="1" maxOccurs="3"></xs:element>
+            <xs:element name="good" type="xs:string" minOccurs="0" maxOccurs="3"></xs:element>
+            <xs:element name="temperature" type="xs:int"></xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="sellerInfo">
+        <xs:sequence>
+            <xs:element name="name" type="xs:string"></xs:element>
+            <xs:element name="price" type="xs:decimal"></xs:element>
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema>

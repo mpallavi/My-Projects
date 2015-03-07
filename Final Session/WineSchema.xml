@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="WineSchema.xsl" ?>
+<!-- WineSchema.xsd -->
+<winecollection>
+    <bottle>
+        <producer>
+            <vineyard>Kemblefield Estate Winery Ltd</vineyard>
+            <address>Aorangi Rd, Hastings 4171</address>
+            <country>NZ</country>
+            <geocode>
+                <latitude>-39.592077</latitude>
+                <longitude>176.507468</longitude>
+            </geocode>
+        </producer>
+        <vintage>2012</vintage>
+        <wine>
+            <variety>Sauvignon Blanc</variety>
+            <type>White Wine</type>
+            <color>Green Yellow</color>
+            <alcoholbyvolume>13.0</alcoholbyvolume>
+            <descriptors>
+                <acidity>Crisp</acidity>
+                <body>Light Bodied</body>
+                <fruit>Tropical Fruit</fruit>
+                <fruit>Citrus</fruit>
+                <herb>GooseBerry</herb>
+                <herb>Vegetal</herb>
+                <herb>Asparagus</herb>
+                <herb>Bell Pepper</herb>
+            </descriptors>
+        </wine>
+        <serve>
+            <best>Green Vegetables</best>
+            <good>Potato</good>
+            <temperature>43</temperature>
+        </serve>
+    </bottle>
+
+    <bottle>
+        <producer>
+            <vineyard>Sextant Wines</vineyard>
+            <address>2324 California 46, Paso Robles, CA 93446</address>
+            <country>US</country>
+            <geocode>
+                <latitude>35.633555</latitude>
+                <longitude>-120.6566579</longitude>
+            </geocode>
+        </producer>
+        <vintage>2012</vintage>
+        <wine>
+            <variety>Cabernet Sauvignon</variety>
+            <type>Red Wine</type>
+            <color>Deep Purple</color>
+            <alcoholbyvolume>14.5</alcoholbyvolume>
+            <descriptors>
+                <body>Full Bodied</body>
+                <body>Finesse</body>
+                <fruit>Cherry</fruit>
+                <inorganic>Smoky</inorganic>
+                <oak>Smoky</oak>
+                <spice>Pepper</spice>
+                <style>Smoky</style>
+                <tannin>Chocolate</tannin>
+            </descriptors>
+        </wine>
+        <serve>
+            <best>Red Meat</best>
+            <good>Pork</good>
+            <temperature>62</temperature>
+        </serve>
+    </bottle>
+
+    <bottle>
+        <producer>
+            <vineyard>Martin Ray Winery</vineyard>
+            <address>2191 Laguna Rd, Santa Rosa, CA 95401</address>
+            <country>US</country>
+            <geocode>
+                <latitude>38.469055</latitude>
+                <longitude>-122.850627</longitude>
+            </geocode>
+        </producer>
+        <vintage>2011</vintage>
+        <wine>
+            <variety>Angeline Pinot Noir</variety>
+            <type>Red Wine</type>
+            <color>Pale Ruby</color>
+            <alcoholbyvolume>13.9</alcoholbyvolume>
+            <descriptors>
+                <fruit>Strawberry</fruit>
+                <fruit>Raspberry</fruit>
+                <fruit>Cherry</fruit>
+                <spice>Tea</spice>
+                <style>Smooth</style>
+                <style>Supple</style>
+            </descriptors>
+        </wine>
+        <serve>
+            <best>Poultry</best>
+            <good>Onions</good>
+            <temperature>54</temperature>
+        </serve>
+    </bottle>
+
+    <bottle>
+        <producer>
+            <vineyard>Henry's Drive Vignerons</vineyard>
+            <address>41 Hodgson Road, Padthaway SA 5271</address>
+            <country>AU</country>
+            <geocode>
+                <latitude>-36.629098</latitude>
+                <longitude>140.528826</longitude>
+            </geocode>
+        </producer>
+        <vintage>2008</vintage>
+        <wine>
+            <variety>Syrah/Shiraz</variety>
+            <type>Red Wine</type>
+            <color>Deep Purple</color>
+            <alcoholbyvolume>14.7</alcoholbyvolume>
+            <descriptors>
+                <acidity>Soft</acidity>
+                <fruit>Blueberry</fruit>
+                <fruit>Cherry</fruit>
+                <fruit>Fleshy</fruit>
+                <oak>Spicy</oak>
+                <spice>Spicy</spice>
+                <spice>Pepper</spice>
+                <style>Fleshy</style>
+                <tannin>Round</tannin>
+                <tannin>Soft</tannin>
+            </descriptors>
+        </wine>
+        <serve>
+            <best>Red Meat</best>
+            <good>Pork</good>
+            <temperature>62</temperature>
+        </serve>
+    </bottle>
+
+    <bottle>
+        <producer>
+            <vineyard>Bodegas Marqués de Cáceres</vineyard>
+            <address>Ctra. de Logroño, 26350 Cenicero, RIOJA, LA,</address>
+            <country>ES</country>
+            <geocode>
+                <latitude>42.479321</latitude>
+                <longitude>-2.632328</longitude>
+            </geocode>
+        </producer>
+        <vintage>2010</vintage>
+        <wine>
+            <variety>Rosé</variety>
+            <type>Rose Wine</type>
+            <color>Pale Salmon</color>
+            <alcoholbyvolume>13.5</alcoholbyvolume>
+            <descriptors>
+                <acidity>Fresh</acidity>
+                <acidity>Crisp</acidity>
+                <body>Medium Bodied</body>
+                <fruit>Strawberry</fruit>
+                <fruit>Cherry</fruit>
+            </descriptors>
+        </wine>
+        <serve>
+            <best>Root Vegetables</best>
+            <good>Pork</good>
+            <temperature>48</temperature>
+        </serve>
+    </bottle>
+
+    <bottle>
+        <producer>
+            <vineyard>Domaine de Guiot</vineyard>
+            <address>Lotissement de guiot, 30800 St Gilles</address>
+            <country>FR</country>
+            <geocode>
+                <latitude>43.675295</latitude>
+                <longitude>4.354475</longitude>
+            </geocode>
+        </producer>
+        <vintage>2010</vintage>
+        <wine>
+            <variety>Rosé</variety>
+            <type>Rose Wine</type>
+            <color>Deep Salmon</color>
+            <alcoholbyvolume>13.5</alcoholbyvolume>
+            <descriptors>
+                <acidity>Zesty</acidity>
+                <body>Medium Bodied</body>
+                <fruit>Raspberry</fruit>
+                <oak>Spicy</oak>
+                <spice>Pepper</spice>
+                <spice>Spicy</spice>
+            </descriptors>
+        </wine>
+        <serve>
+            <best>Root Vegetables</best>
+            <good>Pork</good>
+            <temperature>48</temperature>
+        </serve>
+    </bottle>
+
+    <bottle>
+        <producer>
+            <vineyard>Shafer Vineyards</vineyard>
+            <address>6154 Silverado Trail, Napa, CA 94558</address>
+            <country>US</country>
+            <geocode>
+                <latitude>38.419906</latitude>
+                <longitude>-122.326905</longitude>
+            </geocode>
+        </producer>
+        <vintage>2011</vintage>
+        <wine>
+            <variety>Merlot</variety>
+            <type>Red Wine</type>
+            <color>Deep Violet</color>
+            <alcoholbyvolume>15.1</alcoholbyvolume>
+            <descriptors>
+                <body>Round</body>
+                <body>Full Bodied</body>
+                <fruit>Cherry (Red and Black)</fruit>
+                <fruit>Plum (Red and Black)</fruit>
+                <herb>Sage</herb>
+                <herb>Oregano</herb>
+                <inorganic>Smoky</inorganic>
+                <inorganic>Wet Earth</inorganic>
+                <oak>Smoky</oak>
+                <spice>Pepper</spice>
+                <style>Smoky</style>
+            </descriptors>
+        </wine>
+        <serve>
+            <best>Pungent Cheese</best>
+            <good>Poultry</good>
+            <temperature>48</temperature>
+        </serve>
+    </bottle>
+
+    <bottle>
+        <producer>
+            <vineyard>Guenoc &amp; Langtry Vineyards</vineyard>
+            <address>21000 Butts Canyon Rd, Middletown, CA 95461</address>
+            <country>US</country>
+            <geocode>
+                <latitude>38.735805</latitude>
+                <longitude>-122.527765</longitude>
+            </geocode>
+        </producer>
+        <vintage>2010</vintage>
+        <wine>
+            <variety>Guenoc Lillie Chardonnay</variety>
+            <type>White Wine</type>
+            <color>Pale Gold</color>
+            <alcoholbyvolume>13.5</alcoholbyvolume>
+            <descriptors>
+                <body>Rich</body>
+                <fruit>Apricot</fruit>
+                <fruit>Peach</fruit>
+                <fruit>Tropical Fruit</fruit>
+                <oak>Creamy</oak>
+                <yeast>Creamy</yeast>
+            </descriptors>
+        </wine>
+        <serve>
+            <best>Fungi</best>
+            <good>Fish</good>
+            <temperature>43</temperature>
+        </serve>
+    </bottle>
+
+    <bottle>
+        <producer>
+            <vineyard>Chambers Rosewood Winery</vineyard>
+            <address>Barkly St, Rutherglen VIC 3685</address>
+            <country>AU</country>
+            <geocode>
+                <latitude>-36.044718</latitude>
+                <longitude>146.45081</longitude>
+            </geocode>
+        </producer>
+        <vintage>2008</vintage>
+        <wine>
+            <variety>Muscat</variety>
+            <type>Dessert</type>
+            <color>Tawny</color>
+            <alcoholbyvolume>18.0</alcoholbyvolume>
+            <descriptors>
+                <acidity>Brisk</acidity>
+                <body>Rich</body>
+                <fruit>Sweet</fruit>
+                <fruit>Molasses</fruit>
+                <fruit>Dates</fruit>
+                <tannin>Dry</tannin>
+            </descriptors>
+        </wine>
+        <serve>
+            <best>Chocolate</best>
+            <good>Crème brûlée</good>
+            <temperature>68</temperature>
+        </serve>
+    </bottle>
+
+    <bottle>
+        <producer>
+            <vineyard>River Road Cellars</vineyard>
+            <address>5220 Ross Rd, Sebastopol, CA 95472</address>
+            <country>US</country>
+            <geocode>
+                <latitude>38.458043</latitude>
+                <longitude>-122.881828</longitude>
+            </geocode>
+        </producer>
+        <vintage>2012</vintage>
+        <wine>
+            <variety>Reserve Chardonnay</variety>
+            <type>White Wine</type>
+            <color>Pale Gold</color>
+            <alcoholbyvolume>13.7</alcoholbyvolume>
+            <descriptors>
+                <acidity>Bright</acidity>
+                <body>Full Bodied</body>
+                <fruit>Pear</fruit>
+                <fruit>Green Apple</fruit>
+                <fruit>Citrus</fruit>
+                <oak>Buttery</oak>
+                <oak>Vanilla</oak>
+                <yeast>Buttery</yeast>
+            </descriptors>
+        </wine>
+        <serve>
+            <best>Poultry</best>
+            <good>Fish</good>
+            <temperature>54</temperature>
+        </serve>
+    </bottle>
+</winecollection>

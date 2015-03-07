@@ -1,0 +1,127 @@
+* {
+	font-family: "HelveticaNeue", "Helvetica", Arial, sans-serif;
+	font-size: 14px;
+	line-height: 1.414;
+	padding: 0;
+	margin: 0;
+}
+
+.bottle {
+	height: 50px;
+	margin: 10px;
+    padding: 10px;
+	background: #f1f1f1;
+}
+
+.bottle div {
+	float: left;
+    padding: 10px;
+}
+
+.alcoholbyvolume, .vintage {
+    text-align: center;
+	font-size: 50px;
+}
+
+span.color {
+	height: 10px;
+	width: 10px;
+	float: left;
+	border-radius: 50%;
+}
+
+/* Codes Based on Variety */
+
+.sparkling {
+	background: #dddddd;
+}
+
+.dry-white {
+	background: #e7e8be;
+}
+
+.sweet-white {
+	background: #f6cc3c;
+}
+
+.rich-white {
+	background: #f6d689;
+}
+
+.rose {
+	background: #ec6768;
+}
+
+.light-red {
+	background: #bf223f;
+}
+
+.medium-red {
+	background: #7b1731;
+}
+
+.bold-red {
+	background: #491a24;
+}
+
+.dessert {
+	background: #b85826;
+}
+
+/* Codes Based on Color */
+
+.almost-clear {
+	background: #eeeed6;
+}
+
+.green-yellow {
+	background: #e4e5bb;
+}
+
+.platinum-yellow {
+	background: #ece7bd;
+}
+
+.pale-yellow {
+	background: #f4ebc0;
+}
+
+.pale-gold {
+	background: #f2d587;
+}
+
+.deep-gold {
+	background: #f6cc3c;
+}
+
+.pale-salmon {
+	background: #f2c9ad;
+}
+
+.deep-pink {
+	background: #eb6194;
+}
+
+.deep-salmon {
+	background: #e46461;
+}
+
+.pale-ruby {
+	background: #b82039;
+	color: #fff;
+}
+
+.deep-violet {
+	background: #791730;
+	color: #fff;
+}
+
+.deep-purple {
+	background: #461823;
+	color: #fff;
+}
+
+.tawny {
+	background: #b75725;
+	color: #fff;
+}
