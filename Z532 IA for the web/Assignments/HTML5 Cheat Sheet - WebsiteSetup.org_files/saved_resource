@@ -1,0 +1,63 @@
+body,.entry-content p, .entry-content ul, .entry-content li,#main .entry-content li {font-size:21px !important;}
+.home #inner-content,#guide #inner-content { border-right: 1px solid #ccc !important;border-left: 1px solid #ccc !important; }
+#guide article.page { border-right: 0px solid #ccc !important;border-left: 0px solid #ccc !important; }
+#menu-guides { padding-left: 0px !important; }
+.hide-content-panel { display:block !important; padding: 12px 0 19px !important;}
+@media screen and (max-width:1050px) {
+  /*.entry-content li,.entry-content li strong {
+   font-size: 15px !important; 
+  }*/
+  .wpbfsb { display:none !important; }
+}
+#page-id-14 #sidebar { float:right !important; }
+.entry-content { padding:1.5em 4.5em 1.5em 1.5em !important; }
+.comment-reply-link { z-index:999 !important; }
+#guide .entry-content>div { width:100% !important; }
+@media (max-width: 767px) {
+#guide .entry-content>div, .hide-content {
+display: inline-block!important;
+width: 100% !important;
+}
+.hide-content,h2,h3,h4,h5 { text-align:left !important; }
+iframe { width: 100% !important;height:auto !important; }
+}
+.hide-content-panel { text-align:center !important; }
+.hide-content-panel p { margin-bottom: 0px !important; }
+.footer { background: #313848 !important; }
+.header,#footer-widgets,#bottom .title-pane, #resources .title-pane { background: #4BA8CA !important; }
+.button.orange, .wpcf7-submit, .blue-btn, .comment-reply-link, #submit,.button.orange:hover, .wpcf7-submit:hover, .blue-btn:hover, .comment-reply-link:hover, #submit:hover {
+  -webkit-box-shadow: 0 0px 0 #e78824 !important;
+  -moz-box-shadow: 0 0px 0 #e78824 !important;
+  box-shadow: 0 0px 0 #e78824 !important;
+  margin-top: 0px !important;
+}
+.button.orange:hover, .wpcf7-submit:hover, .blue-btn:hover, .comment-reply-link:hover, #submit:hover {
+  background: #fd992e !important;
+}
+.button.orange:active,.wpcf7-submit:hover,.comment-reply-link:hover,#submit:hover{background:#fd9627;-webkit-box-shadow:0 0px 0 #e78824;-moz-box-shadow:0 0px 0 #e78824;box-shadow:0 0px 0 #e78824;position:relative;margin-top:0px;color:white!important}
+#welcome h1 { padding-top: 0px !important; }
+#welcome h1 strong { display:none !important; }
+nav#guides { margin-top: 15px !important; }
+nav#guides a { color: white !important; }
+#menu-main-menu a { font-weight:bold !important; }
+body { color: #313848 !important; }
+a:active, a:hover {
+color: #fd992e !important;
+}
+a {
+color: #4BA8CA !important;
+}
+header #inner-header {
+color: #fff !important;
+background-color: #313848 !important;
+}
+header #menu-main-menu a { color: white !important; }
+#logo {
+background-image: url('http://websitesetup.org/wp-content/uploads/2014/10/logo.png') !important;
+}
+footer a { color: white !important; }
+#welcome h1 { font-size: 300% !important; }
+.footer-top h5 { font-size: 280% !important; }
+#section-block-blue { background:none !important; }
+p{-ms-word-break:normal !important;-ms-word-wrap:normal !important;word-break:normal !important;word-break:normal !important;-webkit-hyphens:auto;-moz-hyphens:auto;hyphens:auto;-webkit-hyphenate-before:2;-webkit-hyphenate-after:3;hyphenate-lines:3;-webkit-font-feature-settings:"liga","dlig";-moz-font-feature-settings:"liga=1, dlig=1";-ms-font-feature-settings:"liga","dlig";-o-font-feature-settings:"liga","dlig";font-feature-settings:"liga","dlig"}
+.page-template-full-php #welcome .d-1of3 img { display: inline-block !important; }

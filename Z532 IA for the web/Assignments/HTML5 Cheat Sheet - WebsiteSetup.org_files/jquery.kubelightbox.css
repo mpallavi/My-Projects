@@ -1,0 +1,75 @@
+.kube-wrap,
+.kube-wrap *                           { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+.kube-wrap .kube-social > *            { float: left !important; height: 20px !important; margin-right: 10px; }
+.kube-wrap .kube-social > *:last-child { margin-right: 0 }
+.kube-wrap                             { left: 0; position: absolute; top: 0; z-index: 8020; }
+.kube-nav,
+.kube-tmp,
+.kube-wrap,
+.kube-skin,
+.kube-outer,
+.kube-inner,
+.kube-image,
+.kube-nav span,
+.kube-wrap iframe,
+.kube-wrap object                      { border: 0; margin: 0; outline: none; padding: 0; vertical-align: top; }
+.kube-skin                             { box-shadow: 0 0 5px rgba(0, 0, 0, 0.4); color: #444; position: relative; text-shadow: none; }
+.kube-opened                           { z-index: 8030 }
+.kube-opened .kube-title               { }
+.kube-opened .kube-skin                { }
+.kube-outer,
+.kube-inner                            { position: relative }
+.kube-inner                            { overflow: hidden }
+.kube-type-iframe .kube-inner          { -webkit-overflow-scrolling: touch }
+.kube-type-image .kube-inner:before    { bottom: 0; box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.08) inset; content: ""; left: 0; position: absolute; right: 0; top: 0; z-index: 2; }
+.kube-error                            { color: #fff; font: 14px/20px "Helvetica Neue",Helvetica,Arial,sans-serif; margin: 0; padding: 15px; white-space: nowrap; }
+.kube-image,
+.kube-iframe                           { display: block; height: 100%; width: 100%; }
+.kube-image                            { max-height: 100%; max-width: 100%; }
+.kube-loading                          { cursor: pointer; left: 50%; margin-left: -22px; margin-top: -22px; opacity: 0.8; position: fixed; top: 50%; z-index: 8100; }
+.kube-loading div                      { background: url('../images/kube_loading.gif') center center no-repeat #000; border-radius: 5px; height: 44px; width: 44px; }
+.kube-tmp                              { left: -99999px; max-height: 99999px; max-width: 99999px; overflow: visible !important; position: absolute; top: -99999px; visibility: hidden; }
+
+/* Controls */
+.kube-controls                         { }
+.kube-controls > a.kube-slideshow      { border-radius: 3px; right: 71px; top: 5px; }
+.kube-controls > a.btnDisabled         { opacity: 0.3 }
+.kube-controls > a.btnDisabled:hover   { background-color: #000000 }
+.kube-controls > a.kube-toggle         { border-radius: 3px; right: 38px; top: 5px; }
+.kube-controls > a.kube-close          { border-radius: 3px; right: 5px; top: 5px; }
+.kube-controls > a.kube-prev,
+.kube-controls > a.kube-next           { height: 44px; left: 0px; line-height: 44px; margin-top: -22px; top: 50%; }
+.kube-controls > a.kube-next           { left: auto; right: 0px; }
+.kube-controls > a                     { background-color: #000000; color: #fff; cursor: pointer; display: block; font-size: 16px; height: 28px; line-height: 28px; outline: medium none !important; position: absolute; text-align: center; text-decoration: none; vertical-align: top; width: 28px; z-index: 8060; }
+.kube-controls > a > span              { display: block; font-family: 'kl_icons'; }
+.kube-controls > a:hover               { background-color: #aec43c; color: #fff; text-decoration:none; }
+.kube-nav                              { }
+.kube-prev span:before                 { content: '\e801' }
+.kube-next span:before                 { content: '\e800' }
+.kube-slideshow span:before            { content: '\e805' }
+.kube-slideshow.playing                { background-color: #aec43c }
+.kube-slideshow.playing span:before    { content: '\e806' }
+.kube-toggle                           { }
+.kube-toggle span:before               { content: '\e804' }
+.kube-toggle.fs                        { background-color: #aec43c }
+.kube-toggle.fs span:before            { content: '\e803' }
+.kube-close                            { }
+.kube-close span:before                { content: '\e802' }
+
+/* Title helper */
+.kube-title                            { color: #fff; font-size: 13px; font-weight: 700; line-height: 22px; padding: 12px 0 0; text-shadow: none; z-index: 8050; }
+.kube-mobile .kube-title,
+.kube-type-iframe .kube-title          { position: relative }
+
+/* Social helper */
+.kube-social                           { bottom: 5px; float: left; right: 5px; position: absolute; z-index: 10; }
+.kube-type-iframe .kube-social         { bottom:-30px; right:0; }
+.kube-social span                      { vertical-align:top !important; }
+
+/* Overlay */
+.kube-lock                             { overflow: hidden !important; width: auto; }
+.kube-lock .kube-overlay               { overflow: auto; overflow-y: scroll; }
+.kube-lock body                        { overflow: hidden !important }
+.kube-lock-test                        { overflow-y: hidden !important }
+.kube-overlay                          { background: url('../images/kube_overlay.png'); display: none; left: 0; overflow: hidden; position: absolute; top: 0; z-index: 8010; }
+.kube-overlay-fixed                    { bottom: 0; position: fixed; right: 0; }

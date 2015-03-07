@@ -1,0 +1,53 @@
+<style>
+header,aside, footer{
+	display: block;
+}
+header{
+	background: #800000;
+	height: 70px;
+	text-align: left;
+	color:white;
+	}
+h1{
+	font: 20pt Helvetica,"Helvetica neue", Arial, sans-serif;
+	text-align:center;
+	}
+h2   {font: 10pt Helvetica,"Helvetica neue", Arial, sans-serif;
+	}
+aside{
+	float: right;
+	width: 400px;
+	padding-left: 20px;
+	border-left: 2px dotted #b2a497;
+}
+h3 {
+	font: 14pt Helvetica,"Helvetica neue", Arial, sans-serif;
+	
+}
+section{
+	float: left;
+	width: 900px;
+	min-height: 100%px;
+	margin: 0 0 20px 0;
+}
+p    {color:black}
+footer{
+	position:absolute;
+	left:0;
+	text-align:center;
+	width:100%;
+	height: 50px;
+	padding: 10px;
+	color: black;
+	background:#ddd3bf;
+		}
+div.img {
+    margin: 5px;
+    padding: 5px;
+    float: center;
+    }
+div.img img {
+    display: center;
+    margin: 5px;
+	}
+</style>
